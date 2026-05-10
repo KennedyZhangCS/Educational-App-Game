@@ -5,3 +5,10 @@ Multi-level educational game designed to help users learn about global cultures 
 - Educational quizzes and challenges
 - User-friendly interface
 - Cultural exploration through gameplay
+
+## Technologies Used
+- C++
+- Qt Creator
+- Qt Framework
+- Object-Oriented Programming
+
