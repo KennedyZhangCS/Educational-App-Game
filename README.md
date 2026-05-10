@@ -27,4 +27,4 @@ Drag Features and user interaction on game items/puzzles will trigger different 
 End of Level 1:
 <img width="992" height="777" alt="image" src="https://github.com/user-attachments/assets/80439d32-5d74-499d-b763-0a16039eed38" />
 
-#Other levels are similar as well, except the levels become more difficult overtime 
+Other levels are similar as well, except the levels become more difficult overtime 
