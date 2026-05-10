@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LevelsMenu</class>
+ <widget class="QWidget" name="LevelsMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>761</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QGraphicsView" name="pot"/>
+    </item>
+    <item>
+     <widget class="QGraphicsView" name="fryer"/>
+    </item>
+    <item>
+     <widget class="QGraphicsView" name="oven"/>
+    </item>
+    <item>
+     <widget class="QGraphicsView" name="grill"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="DragItem" name="chicken" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="levelLabel">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>498</y>
+     <width>241</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="lock">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>101</y>
+     <width>185</width>
+     <height>129</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="lock_2">
+   <property name="geometry">
+    <rect>
+     <x>212</x>
+     <y>101</y>
+     <width>185</width>
+     <height>129</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="lock_3">
+   <property name="geometry">
+    <rect>
+     <x>403</x>
+     <y>101</y>
+     <width>186</width>
+     <height>129</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="lock_4">
+   <property name="geometry">
+    <rect>
+     <x>594</x>
+     <y>101</y>
+     <width>185</width>
+     <height>129</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>horizontalLayoutWidget</zorder>
+  <zorder>levelLabel</zorder>
+  <zorder>lock</zorder>
+  <zorder>lock_2</zorder>
+  <zorder>lock_3</zorder>
+  <zorder>lock_4</zorder>
+  <zorder>chicken</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>DragItem</class>
+   <extends>QWidget</extends>
+   <header location="global">dragitem.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
